@@ -6,7 +6,18 @@
   width: 300px;
 }
 
-.card-container {
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.card-container .mini-card {
   margin: 0 auto;
 }
 

@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.header .navbar-brand img {
+  width: 300px;
+}
+
+.card-container {
+  margin: 0 auto;
+}
+
+.card-container .col-md-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container .fa-solid {
+  color: orange;
+  font-size: 48px;
+}

@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header .navbar-brand img {
   width: 300px;
 }
@@ -17,6 +21,10 @@
   margin-top: 100px;
 }
 
+input[type='email']::placeholder {
+  padding: 3px 5px;
+}
+
 .card-container .mini-card {
   margin: 0 auto;
 }
@@ -30,4 +38,8 @@
 .card-container .fa-solid {
   color: orange;
   font-size: 48px;
+}
+
+.footer-07 .row {
+  background: rgb(193, 193, 193);
 }

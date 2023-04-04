@@ -11,14 +11,14 @@ body {
 }
 
 .header {
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   z-index: 2;
 }
 
 .main {
-  padding-top: 20%;
+  padding-top: 5%;
 }
 
 input[type='email']::placeholder {

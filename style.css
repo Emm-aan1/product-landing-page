@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  position: relative;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 2;
@@ -47,6 +47,10 @@ input[type='email']::placeholder {
 
 
 @media screen and (max-width:780px) {
+  .header {
+  position: relative;
+  }
+  
   .embed-responsive{
     width: 90vw;
     }

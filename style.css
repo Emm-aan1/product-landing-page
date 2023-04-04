@@ -44,3 +44,14 @@ input[type='email']::placeholder {
 .footer-07 .row {
   background: rgb(193, 193, 193);
 }
+
+
+@media screen and (max-width:780px) {
+  .embed-responsive{
+    width: 90vw;
+    }
+    
+    .embed-responsive-item{
+      width: 100%;
+      }
+}

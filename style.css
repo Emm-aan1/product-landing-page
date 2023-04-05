@@ -59,11 +59,6 @@ input[type='email']::placeholder {
     position: relative;
   }
 
-  .header ul {
-    display: grid;
-    grid-template-columns: 35% 1fr 20%;
-  }
-
   .main input {
     width: 85vw;
   }

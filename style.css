@@ -18,12 +18,16 @@ body {
 }
 
 .main {
-  padding-top: 5%;
+  margin-top: 7%;
+}
+
+input[type='email'] {
+  padding: 3px 5px;
+  width: 40%;
 }
 
 input[type='email']::placeholder {
-  padding: 3px 5px;
-  width: 100%
+  padding: 2px 0 2px 2px;
 }
 
 .card-container .mini-card {
@@ -41,6 +45,10 @@ input[type='email']::placeholder {
   font-size: 48px;
 }
 
+.embed-responsive {
+  width: 75vw;
+}
+
 .footer-07 .row {
   background: rgb(193, 193, 193);
 }
@@ -48,14 +56,19 @@ input[type='email']::placeholder {
 
 @media screen and (max-width:780px) {
   .header {
-  position: relative;
+    position: relative;
   }
-  
-  .embed-responsive{
+
+  .header ul {
+    display: grid;
+    grid-template-columns: 35% 1fr 20%;
+  }
+
+  .main input {
+    width: 85vw;
+  }
+
+  .embed-responsive {
     width: 90vw;
-    }
-    
-    .embed-responsive-item{
-      width: 100%;
-      }
+  }
 }
